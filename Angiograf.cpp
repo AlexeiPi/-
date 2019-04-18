@@ -3,6 +3,7 @@
 #include "Angiograf.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
+//файл класса Ангиограф
 //---------------------------------------------------------------------------
 void __fastcall Angiograph::yes_button_click(TObject *Sender){
 	stop_procedure();

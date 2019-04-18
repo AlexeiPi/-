@@ -8,7 +8,7 @@
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-//readme updated
+//פאיכ פמנלû
 TF366 *F366;
 int number_Of_Angiograph;
 Angiograph *angarray[20];
