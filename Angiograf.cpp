@@ -27,8 +27,8 @@ int iRC;
 		iRC=CompareTime(now_time,final_count);
 		difference=SecondsBetween(now_time,final_count);
 		if (iRC==-1&&difference!=0){
-			str.sprintf("Осталось: %d сек.",(int)difference);
-			stop_panel_time_label->Caption=str;
+			astr.sprintf("Осталось: %d сек.",(int)difference);
+			stop_panel_time_label->Caption=astr;
 		}//end of if
 		else{
 			no_button_click(NULL);
