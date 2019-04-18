@@ -1549,7 +1549,7 @@ object F366: TF366
   object Timer1: TTimer
     Interval = 500
     OnTimer = Timer1Timer
-    Left = 664
-    Top = 24
+    Left = 24
+    Top = 376
   end
 end
