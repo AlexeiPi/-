@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------
 #pragma hdrstop
 #include "Angiograf.h"
-#release
+#release  testing local - remote
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
