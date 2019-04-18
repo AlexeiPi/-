@@ -9,7 +9,6 @@
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 TF366 *F366;
-
 int number_Of_Angiograph;
 Angiograph *angarray[20];
 TIniFile *Ini366;

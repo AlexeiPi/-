@@ -14,13 +14,14 @@
 #include <Vcl.Imaging.pngimage.hpp>
 #include <System.ImageList.hpp>
 #include <Vcl.ImgList.hpp>
+#include <Vcl.Graphics.hpp>
 //---------------------------------------------------------------------------
 class TF366 : public TForm
 {
 __published:	// IDE-managed Components
 	TTimer *Timer1;
-	TPanel *Panel1;
 	TImage *Image1;
+	TImage *Image2;
 	void __fastcall Timer1Timer(TObject *Sender);
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 private:	// User declarations

@@ -244,12 +244,7 @@ void __fastcall Angiograph::Locations(TForm* form){
 	image->Top=3;
 	image->Left=3;
 	image->Width=40;
-	//image->Picture->Assign(F366->ImList[0]);
-	//image->Picture->LoadFromFile("Clocks.png");
-	//image->Picture->LoadFromResource("Clocks.png");
 	image->Picture=F366->Image1->Picture;
-//	 image->Picture->Bitmap->LoadFromResourceName((int)HInstance,"PngImage_1");
-
 	panel->Height=start_button->Height+30;
 	panel->Top=10+panel->Height* sN;
 	panel->Width= stop_panel->Left+stop_panel->Width+10;
