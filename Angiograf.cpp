@@ -1,6 +1,7 @@
 //---------------------------------------------------------------------------
 #pragma hdrstop
 #include "Angiograf.h"
+#release
 
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
@@ -10,8 +11,8 @@ void __fastcall Angiograph::yes_button_click(TObject *Sender){
 }//end of proc
 //---------------------------------------------------------------------------
 void __fastcall Angiograph::no_button_click(TObject *Sender){
-		stop_panel->Visible=false;
-		startlabel->Enabled=true;
+	stop_panel->Visible=false;
+	startlabel->Enabled=true;
 }//end of proc
 //---------------------------------------------------------------------------
 void __fastcall Angiograph::check_status(){
