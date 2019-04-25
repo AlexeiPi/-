@@ -19,25 +19,25 @@ AnsiString astr,bstr;
 int ii;
 	Ini366=new TIniFile(ChangeFileExt( Application->ExeName, ".INI" ));
 	try{
-		ii=Ini366->ReadInteger("Ангиографы","Number",0);
+		number_Of_Angiograph=Ini366->ReadInteger("Ангиографы","Number",0);
 	}//end of try
 	catch(...){
-		ii=4;
-        Ini366->WriteInteger("Ангиографы","Number",ii);
+		number_Of_Angiograph=4;
+		Ini366->WriteInteger("Ангиографы","Number",ii);
 	}//end of catch
-
-	for (int i=1;i<=ii;i++){
-		angarray[number_Of_Angiograph-1]=new Angiograph(F366);
-		astr.sprintf("Ангиограф%d",i);
+	for (int i=0;i<number_Of_Angiograph;i++){
+		angarray[i]=new Angiograph(i,F366);
+		astr.sprintf("Ангиограф%d",angarray[i]->getSN());
 		bstr=Ini366->ReadString(astr, "Начало", "");
 		try{
-			angarray[number_Of_Angiograph-1]->start_time=TDateTime(bstr);
+			angarray[i]->setStartTime(TDateTime(bstr));
 		}//end of try
 		catch(...){
-			angarray[number_Of_Angiograph-1]->start_time=TDateTime("00:00:00");
+			angarray[i]->setStartTime(TDateTime("00:00:00"));
 		}//end of catch
 	}//end of if
-	F366->Height=60+number_Of_Angiograph*angarray[0]->panel->Height;
+	ii=angarray[0]->getHeight();
+	F366->Height=60+number_Of_Angiograph*ii;
 }//end of if
 //---------------------------------------------------------------------------
 void __fastcall TF366::Timer1Timer(TObject *Sender){

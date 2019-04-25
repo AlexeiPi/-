@@ -115,7 +115,6 @@ AnsiString str,astr,bstr;
 //-----------------------------------------------------------------------------
 void __fastcall Angiograph::Locations(TForm* form){
 
-	sN=number_Of_Angiograph++;
 	stopFlag=0;
 
 	panel= new TPanel(form);
@@ -126,7 +125,7 @@ void __fastcall Angiograph::Locations(TForm* form){
 	panel->Top=10;
 	panel->Left=1;
 	panel->Visible=true;
-	str.sprintf("Ангиограф%d",number_Of_Angiograph);
+	str.sprintf("Ангиограф%d",sN);
 	panel->Caption=str;
 
 	start_button=new TButton(panel);
@@ -245,8 +244,11 @@ void __fastcall Angiograph::Locations(TForm* form){
 	image->Left=3;
 	image->Width=40;
 	image->Picture=F366->Image1->Picture;
-	panel->Height=start_button->Height+30;
-	panel->Top=10+panel->Height* sN;
+
+	PanelHeight=start_button->Height+30;
+
+	panel->Height=PanelHeight;
+	panel->Top=10+panel->Height* (sN-1);
 	panel->Width= stop_panel->Left+stop_panel->Width+10;
 	form->Width=panel->Width+22;
 

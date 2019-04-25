@@ -18,7 +18,7 @@
 
 //---------------------------------------------------------------------------
 extern TIniFile *Ini366;
-extern int number_Of_Angiograph;
+//extern int number_Of_Angiograph;
 //---------------------------------------------------------------------------
 class Angiograph {
  private:
@@ -34,11 +34,11 @@ class Angiograph {
 	TButton *start_button,*yes_button,*no_button;
 	TShape *tln;
 	TImage *image;
- public:
 	int sN;
 	TDateTime start_time;
-
 	TPanel *panel;
+	int PanelHeight;
+
 	void __fastcall show_stop_panel();
 	void __fastcall time_tick(TObject *Sender);
 	void __fastcall start_click(TObject *Sender, TMouseButton Button, TShiftState Shift,int X, int Y);
@@ -49,7 +49,13 @@ class Angiograph {
 	void __fastcall check_final_count();
 
 	void __fastcall Locations(TForm* form);
-	Angiograph(TForm* form){Locations(form);};
+
+ public:
+	Angiograph(int i,TForm* form){sN=i+1;Locations(form);};
 	~Angiograph(){delete panel;}//end of destructor
+
+	int getSN(void){return sN;}
+	int getHeight(void){return PanelHeight;}
+	void setStartTime(TDateTime st){start_time=st;}
  };
 #endif
