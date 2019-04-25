@@ -85,7 +85,7 @@ AnsiString astr;
 	stop_panel->Visible=false;
 	startlabel->Enabled=true;
 
-	astr.sprintf("Ангиограф%d",sN+1);
+	astr.sprintf("Ангиограф%d",sN);
 	Ini366->WriteString(astr, "Начало", "00:00:00");
 	stopFlag=0;
 	check_status();		
@@ -99,7 +99,7 @@ AnsiString str,astr,bstr;
 		bstr=start_time.FormatString("hh:mm:ss");
 		str.sprintf("Начало: %s",bstr.c_str());
 
-		astr.sprintf("Ангиограф%d",sN+1);
+		astr.sprintf("Ангиограф%d",sN);
 		bstr=start_time.FormatString("dd.mm.yyyy hh:mm:ss");
 		Ini366->WriteString(astr, "Начало", bstr);
 		
@@ -114,9 +114,7 @@ AnsiString str,astr,bstr;
 }//end of proc
 //-----------------------------------------------------------------------------
 void __fastcall Angiograph::Locations(TForm* form){
-
 	stopFlag=0;
-
 	panel= new TPanel(form);
 	panel->Parent = form;
 	panel->Font->Size=14;

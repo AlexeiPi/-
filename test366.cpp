@@ -36,20 +36,17 @@ int ii;
 			angarray[i]->setStartTime(TDateTime("00:00:00"));
 		}//end of catch
 	}//end of if
-	ii=angarray[0]->getHeight();
-	F366->Height=60+number_Of_Angiograph*ii;
+//	ii=angarray[0]->getHeight();
+	F366->Height=60+number_Of_Angiograph*angarray[0]->getHeight();
 }//end of if
 //---------------------------------------------------------------------------
 void __fastcall TF366::Timer1Timer(TObject *Sender){
-	AnsiString astr;
-	TDateTime tdt=Now();
-	astr=DateTimeToStr(tdt);
-	F366->Caption="Test 36.6 by AlexeiPivovarov "+astr;
+	F366->Caption="Test 36.6 by AlexeiPivovarov "+DateTimeToStr(Now());
 }//end of proc
 //---------------------------------------------------------------------------
 void __fastcall TF366::FormClose(TObject *Sender, TCloseAction &Action){
 	delete Ini366;
     Ini366 = NULL;
-}
+}//end of proc
 //---------------------------------------------------------------------------
 
