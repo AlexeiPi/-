@@ -46,7 +46,7 @@ void __fastcall TF366::Timer1Timer(TObject *Sender){
 //---------------------------------------------------------------------------
 void __fastcall TF366::FormClose(TObject *Sender, TCloseAction &Action){
 	delete Ini366;
-    Ini366 = NULL;
+	Ini366 = NULL;
 }//end of proc
 //---------------------------------------------------------------------------
 

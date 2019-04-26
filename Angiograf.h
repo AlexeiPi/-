@@ -23,7 +23,10 @@ class Angiograph {
  private:
 	bool stopFlag;
 	AnsiString str;
+	TDateTime start_time;
 	TDateTime final_count;
+	int PanelHeight;
+	int sN;
 
 	TLabel *label,*startlabel,*label1,*label2;
 	TTimer *timer;
@@ -33,10 +36,7 @@ class Angiograph {
 	TButton *start_button,*yes_button,*no_button;
 	TShape *tln;
 	TImage *image;
-	int sN;
-	TDateTime start_time;
 	TPanel *panel;
-	int PanelHeight;
 
 	void __fastcall show_stop_panel();
 	void __fastcall time_tick(TObject *Sender);

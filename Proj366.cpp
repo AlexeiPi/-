@@ -8,8 +8,7 @@ USEFORM("test366.cpp", F366);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
-	try
-	{
+	try{
 		Application->Initialize();
 		Application->MainFormOnTaskBar = true;
 		Application->CreateForm(__classid(TF366), &F366);
