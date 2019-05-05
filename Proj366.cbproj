@@ -725,7 +725,7 @@
                 <Platform value="Win64">False</Platform>
             </Platforms>
             <UnitTesting>
-                <TestProjectName>C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Test\Proj366Tests.cbproj</TestProjectName>
+                <TestProjectName>C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\UnitTests\Proj366Tests.cbproj</TestProjectName>
             </UnitTesting>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
