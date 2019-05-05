@@ -1,30 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.061,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.851,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.158,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\P366.h=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.437,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\test366.dfm=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.750,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.707,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\test366.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.851,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.867,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\test366.cpp=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.061,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.576,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.743,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.429,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Angiograf.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.493,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Win32\Debug\Clocks.png=</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.561,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Win32\Debug\Clocks.png</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.750,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.406,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.217,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Proj366.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.561,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Win32\Debug\Clocks.png</Transaction>
     <Transaction>1899.12.30 00:00:00.000.549,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Angiograf.h=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Angiograf.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.766,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.429,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Angiograf.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.073,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.478,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Apteka_36_6-logo-FF4781C5DA-seeklogo.ico=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.521,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Apteka_36_6-logo-FF4781C5DA-seeklogo.ico</Transaction>
     <Transaction>1899.12.30 00:00:00.000.437,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\test366.cpp=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.429,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Angiograf.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.406,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.766,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.493,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Win32\Debug\Clocks.png=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.549,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Angiograf.cpp=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Angiograf.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.437,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\test366.h=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.264,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Untitled1.xml</Transaction>
     <Transaction>1899.12.30 00:00:00.000.079,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
-    <Transaction>2019.05.05 12:25:26.867,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\test366.cpp=</Transaction>
+    <Transaction>2019.05.05 12:54:20.008,=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\test366.cpp</Transaction>
   </Transactions>
 </BorlandProject>

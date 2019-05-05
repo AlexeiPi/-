@@ -133,6 +133,13 @@
         <CppCompile Include="Proj366.cpp">
             <BuildOrder>0</BuildOrder>
         </CppCompile>
+        <CppCompile Include="test366.cpp">
+            <Form>F366</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>test366.h</DependentOn>
+            <BuildOrder>2</BuildOrder>
+        </CppCompile>
+        <FormResources Include="test366.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
