@@ -3,15 +3,11 @@
 #pragma hdrstop
 #include <tchar.h>
 //---------------------------------------------------------------------------
-USEFORM("test366.cpp", F366);
-//Главный файл проекта
-//---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
 	try{
 		Application->Initialize();
 		Application->MainFormOnTaskBar = true;
-		Application->CreateForm(__classid(TF366), &F366);
 		Application->Run();
 	}
 	catch (Exception &exception)
