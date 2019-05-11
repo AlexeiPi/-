@@ -4,10 +4,10 @@
 #define AngiografH
 
 #include <System.Classes.hpp>
-#include <Vcl.Controls.hpp>
-#include <Vcl.StdCtrls.hpp>
-#include <Vcl.Forms.hpp>
 #include <Vcl.ExtCtrls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.Forms.hpp>
 #include <Vcl.Grids.hpp>
 #include <Vcl.Outline.hpp>
 #include <Vcl.Imaging.GIFImg.hpp>
@@ -30,13 +30,15 @@ class Angiograph {
 
 	TLabel *label,*startlabel,*label1,*label2;
 	TTimer *timer;
-	TPanel *stop_panel;
+
+	TPanel *stop_panel,*panel;
+
 	TLabel *stop_panel_label,*stop_panel_time_label;
 	TLabel *stop_fill_label;
 	TButton *start_button,*yes_button,*no_button;
 	TShape *tln;
 	TImage *image;
-	TPanel *panel;
+
 
 	void __fastcall show_stop_panel();
 	void __fastcall time_tick(TObject *Sender);
@@ -48,6 +50,7 @@ class Angiograph {
 	void __fastcall check_final_count();
 
 	void __fastcall Locations(TForm* form);
+
 
  public:
 	Angiograph(int i,TForm* form){sN=i+1;Locations(form);};

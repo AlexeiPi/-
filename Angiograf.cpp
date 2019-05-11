@@ -38,18 +38,18 @@ int iRC;
 }//end of proc
 //---------------------------------------------------------------------------
 void __fastcall Angiograph::time_tick(TObject *Sender){
-	AnsiString astr,bstr,astart_time;
+	String astr,bstr,astart_time;
 	TDateTime remain_time,now_time;
 	float difference;
 	int iRC;
 	now_time=Now();
 	astart_time=start_time.FormatString("hh:mm:ss");
 	if (astart_time!="00:00:00") {
-		bstr.sprintf("Начало: %s",astart_time.c_str());
+		bstr="Начало: "+astart_time;
 		label1->Caption=bstr;
 		stopFlag=1;
 	}//end of if
-	
+
 	remain_time=IncMinute(start_time,90);
 	iRC=CompareDateTime(now_time,remain_time);
 	difference=SecondsBetween(now_time,remain_time);
@@ -60,7 +60,7 @@ void __fastcall Angiograph::time_tick(TObject *Sender){
 	else{
 		remain_time-=now_time;
 		astr=remain_time.FormatString("hh:mm:ss");
-		str.sprintf("Осталось: %s",astr.c_str());
+		str="Осталось: "+astr;
 		label2->Caption=str;
 		check_final_count();
 	}//end of if
@@ -102,7 +102,7 @@ AnsiString str,astr,bstr;
 		astr.sprintf("Ангиограф%d",sN);
 		bstr=start_time.FormatString("dd.mm.yyyy hh:mm:ss");
 		Ini366->WriteString(astr, "Начало", bstr);
-		
+
 		label1->Caption=str;
 		str.sprintf("Осталось: %s","01:30:00");
 		label2->Caption=str;

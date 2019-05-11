@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.988,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF.groupproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.742,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF.groupproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\ANGIOGRAF.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.742,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\ANGIOGRAF.groupproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF.groupproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.988,C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF.groupproj=C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="C:\Users\Алексей\Documents\Embarcadero\Studio\Projects\ANGIOGRAF\Proj366Tests.cbproj"/>
+		<Projects ActiveProject="C:\Users\Alexei\Documents\Embarcadero\Studio\Projects\Angiograf\Proj366.cbproj"/>
 	</Default.Personality>
 </BorlandProject>
